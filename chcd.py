@@ -18,7 +18,7 @@ def meFirstGen(iterable):
 
 
 def recfind(curpath, dirs, lastdir):
-    print(curpath, dirs, lastdir)
+    # print(curpath, dirs, lastdir)
     try:
         files = os.listdir(curpath)
     except OSError:
